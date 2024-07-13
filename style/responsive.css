@@ -1,6 +1,6 @@
 
-/* Mobile Responsive */
-@media screen and (max-width: 576px) {
+/* Mobile and iPad Responsive */
+@media screen and (max-width: 768px) {
     .container{
         flex-direction: column;
     }
@@ -98,5 +98,80 @@
     /* Footer */
     footer{
         padding: 80px 0;
+    }
+}
+
+/* Tab and Laptop Responsive */
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    .banner-content{
+        width: 100%;
+        margin-right: 0;
+    }
+    .banner-flower img{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 32px;
+    }
+
+    /* Feature Section */
+    .title-and-description{
+        margin: 100px auto 0;
+    }
+    .flower-box .flower-img{
+        width: 100%;
+        height: 300px;
+    }
+    .flower-box{
+        margin: 10px;
+    }
+    .support-container{
+        margin-top: 70px;
+        padding: 40px;
+    }
+
+    /* Hot Deal */
+    .hot-deal{
+        margin: 80px 20px;
+    }
+    .hot-deal > .container{
+        padding: 0;
+    }
+    .hot-deal-content{
+        margin-right: 0;
+    }
+    .hot-deal-flower{
+        padding: 20px;
+    }
+
+    /* Card Section */
+    .card{
+        padding: 20px;
+    }
+    .card .img{
+        width: 100%;
+    }
+    .card .img img{
+        width: 100%;
+    }
+
+    /* Deals Section */
+    form input[type="email"]{
+        width: 50%;
+    }
+    .deal-section{
+        margin: 80px 20px;
+    }
+
+    /* Footer */
+    footer{
+        padding: 80px 0;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1439px){
+    .flower-box .flower-img{
+        height: 460px;
     }
 }
