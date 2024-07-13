@@ -168,6 +168,9 @@ span{
     height: 449px;
     margin: 128px 0;
 }
+.deal-section > .title-and-description{
+    margin: 125px auto 0;
+}
 form{
     text-align: center;
 }
@@ -197,4 +200,9 @@ footer .description{
 footer p{
     opacity: .4;
     text-align: center;
+}
+
+
+.hide{
+    display: none;
 }

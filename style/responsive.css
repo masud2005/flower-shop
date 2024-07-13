@@ -4,4 +4,99 @@
     .container{
         flex-direction: column;
     }
+    .btn-primary{
+        font-size: 14px;
+    }
+    .title-and-description{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .description{
+        font-size: 16px;
+    }
+
+    /* Banner Section */
+    .banner-flower img{
+        width: 100%;
+        height: 360px;
+    }
+    .banner-content{
+        margin-right: 0;
+    }
+    .banner-title{
+        font-size: 32px;
+    }
+    .banner-description{
+        font-size: 16px;
+    }
+
+    /* Feature Section */
+    .flower-box{
+        margin: 15px;
+    }
+    .flower-box .flower-img{
+        width: 100%;
+        height: 400px;
+        margin-top: 0;
+    }
+    .flower-title{
+        margin-top: 20px;
+    }
+    .support-container{
+        flex-direction: column;
+        padding: 0;
+        margin-top: 70px;
+    }
+    .support-title{
+        margin-top: 10px;
+    }
+    .support-box{
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    /* Hot Deal Section */
+    .hot-deal{
+        margin: 80px 0;
+    }
+    .hot-deal > .container{
+        padding: 0;
+    }
+    .hot-deal-content{
+        margin-right: 0;
+    }
+    .hot-title{
+        font-size: 32px;
+    }
+    .hot-description{
+        font-size: 16px;
+    }
+
+    /* Instagram Section */
+    .card{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+    .card img{
+        width: 100%;
+    }
+
+    /* Deals Section */
+    .deal-section{
+        margin: 80px 0;
+    }
+    form input[type="email"]{
+        width: 50%;
+    }
+
+    /* Footer */
+    footer{
+        padding: 80px 0;
+    }
 }
