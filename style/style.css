@@ -14,11 +14,10 @@
   
 /* Shared Style */
 .container{
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .btn-primary{
     font-size: 20px;
@@ -29,7 +28,23 @@
     border-radius: 8px;
     border: none;
 }
-
+.title-and-description{
+    width: 594px;
+    margin: 178px auto 0;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #27272799;
+    margin: 24px 0 48px 0;
+}
 
 /* Banner Section Start Here */
 .banner-section{
@@ -46,9 +61,67 @@
     font-size: 18px;
     font-weight: 400;
     color: #27272799;
-    margin: 32px 0;
 }
 .banner-content{
     margin-right: 97px;
     padding: 20px;
+}
+
+
+/* Feature Section Start Here */
+.flower-box{
+    box-sizing: border-box;
+}
+.flower-box .flower-img{
+    padding: 110px 77px 0;
+    border-radius: 300px 300px 0 0;
+    margin-right: 24px;
+    width: 464px;
+    height: 538px;
+    box-sizing: border-box; 
+    margin-top: 48px;
+}
+.flower-img img{
+    width: 100%;
+    height: 100%;
+}
+.flower-box .flower-img:last-child{
+    margin-right: 0;
+}
+.flower-title{
+    text-align: center;
+    margin-top: 32px;
+}
+.bg-1{
+    background-color: #A7216226;
+}
+.bg-2{
+    background-color: #0597A026;
+}
+.bg-3{
+    background-color: #477D1126;
+}
+
+
+/* Support Section Start Here */
+.support-container{
+    width: 100%;
+    display: flex;
+    background-color: #2727270D;
+    padding: 86px 175px;
+    margin-top: 128px;
+    justify-content: center;
+}
+.support-container{
+
+}
+.support-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727CC;
+    margin-top: 26px;
+}
+.support-box{
+    text-align: center;
+    padding: 0 30px;
 }
